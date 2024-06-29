@@ -57,7 +57,7 @@ int main()
         return 1;
     }
     catch (const std::exception& ex) {
-        spdlog::error("Exception: {}", ex.what());
+        spdlog::error("Exception : {}", ex.what());
         return 1;
     }
 
